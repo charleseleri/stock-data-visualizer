@@ -1,4 +1,4 @@
-import requests
+import requests 
 import pandas as pd
 import matplotlib.pyplot as plt
 import tkinter as tk
@@ -6,7 +6,7 @@ from tkinter import ttk
 
 # Function to fetch stock data from Alpha Vantage API
 def fetch_stock_data(symbol):
-    API_KEY = "demo"  # Replace with actual API key
+    API_KEY = "21YYWNHZ2DFIUIPX"  # Inserted the correct API key
     url = f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={API_KEY}&outputsize=compact"
     response = requests.get(url)
     data = response.json()
