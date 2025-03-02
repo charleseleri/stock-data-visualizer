@@ -1,1 +1,1 @@
-# Stock Data Visualizer 📈
+# Stock Data Visualizer 
